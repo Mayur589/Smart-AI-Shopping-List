@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local private reference notes
+TECHNICAL_QA_GUIDE.md
+
