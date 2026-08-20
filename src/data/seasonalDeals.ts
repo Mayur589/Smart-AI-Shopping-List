@@ -1,0 +1,66 @@
+import { SeasonalDeal } from '../types/shopping';
+
+export const SEASONAL_DEALS: SeasonalDeal[] = [
+  {
+    id: 'deal-001',
+    productId: 'prod-011',
+    name: 'Organic Strawberries',
+    category: 'produce',
+    originalPrice: 5.99,
+    discountedPrice: 4.49,
+    discountPercentage: 25,
+    season: 'spring',
+    badgeText: 'Peak Season Deal',
+    unit: 'clamshell (1 lb)',
+  },
+  {
+    id: 'deal-002',
+    productId: 'prod-001',
+    name: 'Organic Honeycrisp Apples',
+    category: 'produce',
+    originalPrice: 4.99,
+    discountedPrice: 3.99,
+    discountPercentage: 20,
+    season: 'fall',
+    badgeText: 'Autumn Harvest Special',
+    unit: 'lbs',
+  },
+  {
+    id: 'deal-003',
+    productId: 'prod-005',
+    name: 'Organic Hass Avocados',
+    category: 'produce',
+    originalPrice: 6.49,
+    discountedPrice: 4.99,
+    discountPercentage: 23,
+    season: 'summer',
+    badgeText: 'Summer Special',
+    unit: 'pack of 4',
+  },
+  {
+    id: 'deal-004',
+    productId: 'bev-003',
+    name: 'Natural Sparkling Spring Water (Lime)',
+    category: 'beverages',
+    originalPrice: 5.49,
+    discountedPrice: 4.49,
+    discountPercentage: 18,
+    season: 'summer',
+    badgeText: 'Weekly Discount',
+    unit: 'pack of 8 cans',
+  },
+  {
+    id: 'deal-005',
+    productId: 'care-001',
+    name: 'Total Clean Mint Toothpaste',
+    category: 'personal_care',
+    originalPrice: 4.29,
+    discountedPrice: 3.49,
+    discountPercentage: 19,
+    season: 'winter',
+    badgeText: 'Price Drop',
+    unit: 'tube (4.8 oz)',
+  }
+];
+
+export const CURRENT_ACTIVE_SEASON: 'spring' | 'summer' | 'fall' | 'winter' = 'summer';
