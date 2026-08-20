@@ -92,42 +92,78 @@ export const CATEGORY_KEYWORD_MAP: Record<ItemCategory, string[]> = {
     'strawberry', 'strawberries', 'blueberry', 'blueberries', 'avocado', 'avocados', 'spinach', 'kale',
     'lettuce', 'tomato', 'tomatoes', 'potato', 'potatoes', 'onion', 'onions', 'garlic', 'carrot', 'carrots',
     'cucumber', 'cucumbers', 'broccoli', 'pepper', 'peppers', 'bell pepper', 'ginger', 'cilantro',
-    'parsley', 'celery', 'zucchini', 'mushroom', 'mushrooms', 'watermelon', 'grape', 'grapes', 'mango', 'peach'
+    'parsley', 'celery', 'zucchini', 'mushroom', 'mushrooms', 'watermelon', 'grape', 'grapes', 'mango', 'peach',
+    'manzana', 'manzanas', 'plátano', 'plátanos', 'naranja', 'naranjas', 'fresas', 'aguacate', 'tomate', 'zanahorias',
+    'pomme', 'pommes', 'banane', 'bananes', 'fraise', 'fraises', 'avocat',
+    'apfel', 'äpfel', 'banane', 'bananen', 'erdbeere', 'erdbeeren', 'avocado',
+    'सेब', 'केला', 'संतरा', 'टमाटर', 'आलू', 'प्याज'
   ],
   dairy: [
     'milk', 'whole milk', 'almond milk', 'oat milk', 'soy milk', 'skim milk', 'greek yogurt', 'yogurt',
     'cheese', 'cheddar', 'mozzarella', 'parmesan', 'butter', 'ghee', 'cream', 'sour cream',
-    'heavy cream', 'cottage cheese', 'paneer', 'cream cheese', 'tofu'
+    'heavy cream', 'cottage cheese', 'paneer', 'cream cheese', 'tofu',
+    'leche', 'queso', 'mantequilla', 'yogur',
+    'lait', 'fromage', 'beurre', 'yaourt',
+    'milch', 'käse', 'butter', 'joghurt',
+    'दूध', 'दही', 'पनीर', 'मक्खन'
   ],
   bakery: [
     'bread', 'whole wheat bread', 'sourdough', 'white bread', 'bagel', 'bagels', 'croissant', 'croissants',
     'pita', 'tortilla', 'tortillas', 'pasta', 'spaghetti', 'penne', 'rice', 'brown rice', 'basmati rice',
-    'jasmine rice', 'quinoa', 'oats', 'rolled oats', 'flour', 'naan', 'buns', 'muffin', 'muffins'
+    'jasmine rice', 'quinoa', 'oats', 'rolled oats', 'flour', 'naan', 'buns', 'muffin', 'muffins',
+    'pan', 'arroz', 'avena', 'harina',
+    'pain', 'baguette', 'riz', 'avoine', 'farine', 'pâtes',
+    'brot', 'brötchen', 'reis', 'haferflocken', 'mehl', 'nudeln',
+    'रोटी', 'चावल', 'आटा', 'ब्रेड'
   ],
   meat: [
     'chicken', 'chicken breast', 'chicken thighs', 'ground beef', 'beef', 'steak', 'pork', 'bacon',
-    'salmon', 'tuna', 'cod', 'shrimp', 'turkey', 'sausage', 'lamb', 'tilapia', 'eggs', 'egg'
+    'salmon', 'tuna', 'cod', 'shrimp', 'turkey', 'sausage', 'lamb', 'tilapia', 'eggs', 'egg',
+    'pollo', 'carne', 'pescado', 'salmón', 'huevos', 'huevo',
+    'poulet', 'viande', 'poisson', 'saumon', 'oeufs', 'oeuf',
+    'hähnchen', 'fleisch', 'fisch', 'lachs', 'eier', 'ei',
+    'मुर्गा', 'अंडा', 'अंडे', 'मछली'
   ],
   pantry: [
     'olive oil', 'extra virgin olive oil', 'avocado oil', 'canola oil', 'coconut oil', 'salt', 'black pepper',
     'sugar', 'honey', 'maple syrup', 'soy sauce', 'vinegar', 'balsamic vinegar', 'apple cider vinegar',
     'pasta sauce', 'marinara', 'peanut butter', 'almond butter', 'canned beans', 'chickpeas', 'black beans',
-    'lentils', 'tomato paste', 'mustard', 'ketchup', 'mayonnaise', 'spices', 'cumin', 'paprika', 'oregano'
+    'lentils', 'tomato paste', 'mustard', 'ketchup', 'mayonnaise', 'spices', 'cumin', 'paprika', 'oregano',
+    'aceite', 'aceite de oliva', 'sal', 'azúcar', 'miel', 'frijoles',
+    'huile', 'huile d\'olive', 'sel', 'sucre', 'miel', 'haricots',
+    'öl', 'olivenöl', 'salz', 'zucker', 'honig', 'bohnen',
+    'तेल', 'नमक', 'चीनी', 'शहद'
   ],
   beverages: [
     'coffee', 'ground coffee', 'coffee beans', 'tea', 'green tea', 'black tea', 'water', 'sparkling water',
-    'orange juice', 'apple juice', 'lemonade', 'kombucha', 'coconut water', 'soda', 'cold brew'
+    'orange juice', 'apple juice', 'lemonade', 'kombucha', 'coconut water', 'soda', 'cold brew',
+    'agua', 'café', 'té', 'jugo',
+    'eau', 'café', 'thé', 'jus',
+    'wasser', 'kaffee', 'tee', 'saft',
+    'पानी', 'कॉफ़ी', 'चाय', 'जूस'
   ],
   snacks: [
     'chips', 'potato chips', 'tortilla chips', 'popcorn', 'pretzels', 'nuts', 'almonds', 'walnuts',
-    'cashews', 'trail mix', 'dark chocolate', 'chocolate', 'cookies', 'crackers', 'granola bars', 'protein bars'
+    'cashews', 'trail mix', 'dark chocolate', 'chocolate', 'cookies', 'crackers', 'granola bars', 'protein bars',
+    'almendras', 'chocolate', 'galletas',
+    'chocolat', 'biscuits', 'noix',
+    'schokolade', 'kekse', 'nüsse',
+    'चॉकलेट', 'बिस्कुट', 'काजू', 'बादाम'
   ],
   household: [
     'detergent', 'laundry detergent', 'dish soap', 'dishwasher pods', 'paper towels', 'toilet paper',
-    'trash bags', 'sponges', 'disinfectant wipes', 'aluminum foil', 'parchment paper', 'ziploc bags'
+    'trash bags', 'sponges', 'disinfectant wipes', 'aluminum foil', 'parchment paper', 'ziploc bags',
+    'detergente', 'jabón', 'toallas de papel',
+    'lessive', 'savon', 'papier essuie-tout',
+    'waschmittel', 'seife', 'küchenpapier',
+    'साबुन', 'सर्फ'
   ],
   personal_care: [
     'toothpaste', 'toothbrush', 'shampoo', 'conditioner', 'body wash', 'soap', 'bar soap',
-    'deodorant', 'lotion', 'sunscreen', 'hand sanitizer', 'dental floss', 'face wash'
+    'deodorant', 'lotion', 'sunscreen', 'hand sanitizer', 'dental floss', 'face wash',
+    'dentífrico', 'pasta dental', 'champú', 'desodorante',
+    'dentifrice', 'shampooing', 'déodorant',
+    'zahnpasta', 'shampoo', 'deo',
+    'टूथपेस्ट', 'शैम्पू'
   ]
 };
